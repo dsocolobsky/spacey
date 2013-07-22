@@ -16,7 +16,7 @@ function Player:new()
     return object
 end
  
-function Hero:moveRight()
+function Player:moveRight()
     self.velocity = self.speed
 end
  
